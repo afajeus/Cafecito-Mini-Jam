@@ -16,7 +16,7 @@ scale = Vector2(1.1, 1.1)
 texture = ExtResource("1_qxr3d")
 
 [node name="Daniela" parent="." unique_id=1289681204 instance=ExtResource("1_mk7yr")]
-position = Vector2(156, 312)
+position = Vector2(-91, 312)
 scale = Vector2(1.2, 1.2)
 
 [node name="Barra" parent="." unique_id=488170430 instance=ExtResource("3_qxr3d")]
