@@ -69,6 +69,6 @@ animations = [{
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=106534601]
 position = Vector2(-3.9999695, 1.000061)
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.25, 0.25)
 sprite_frames = SubResource("SpriteFrames_1khlk")
 animation = &"Triste"

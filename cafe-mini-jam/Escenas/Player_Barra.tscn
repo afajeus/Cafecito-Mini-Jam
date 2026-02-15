@@ -1,16 +1,23 @@
 [gd_scene format=3 uid="uid://ccgalp4itsclx"]
 
+[ext_resource type="Script" uid="uid://dd1emoxn7821r" path="res://Script/npc.gd" id="1_dqlhq"]
 [ext_resource type="Texture2D" uid="uid://nhnheeqd3h1n" path="res://IMG/Barra.png" id="1_llt3f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0f22d"]
 size = Vector2(67, 689)
 
 [node name="Area2D" type="Area2D" unique_id=488170430]
+script = ExtResource("1_dqlhq")
 
 [node name="Barra" type="Sprite2D" parent="." unique_id=640320456]
 position = Vector2(1, -1)
+scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_llt3f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=163947466]
 position = Vector2(0, -26.5)
+scale = Vector2(0.25, 0.25)
 shape = SubResource("RectangleShape2D_0f22d")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
