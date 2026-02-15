@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bexb4aqt7a5bu"]
+
+[ext_resource type="PackedScene" uid="uid://crpol1aemehh7" path="res://Escenas/Daniela.scn" id="1_mk7yr"]
+[ext_resource type="Texture2D" uid="uid://d1uijk06ad52g" path="res://IMG/fondo1.jpg" id="1_qxr3d"]
+[ext_resource type="PackedScene" uid="uid://ccgalp4itsclx" path="res://Escenas/Player_Barra.tscn" id="3_qxr3d"]
+
+[node name="Cafeteria" type="Node2D" unique_id=514107168]
+
+[node name="Fondo" type="Node2D" parent="." unique_id=1067094244]
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo" unique_id=1700614662]
+position = Vector2(358, 666)
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("1_qxr3d")
+
+[node name="Daniela" parent="." unique_id=1289681204 instance=ExtResource("1_mk7yr")]
+position = Vector2(-4, -3)
+
+[node name="Barra" parent="." unique_id=488170430 instance=ExtResource("3_qxr3d")]
+position = Vector2(397, 1249)

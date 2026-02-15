@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ccgalp4itsclx"]
+
+[ext_resource type="Texture2D" uid="uid://nhnheeqd3h1n" path="res://IMG/Barra.png" id="1_llt3f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0f22d"]
+size = Vector2(67, 689)
+
+[node name="Area2D" type="Area2D" unique_id=488170430]
+
+[node name="Barra" type="Sprite2D" parent="." unique_id=640320456]
+position = Vector2(1, -1)
+texture = ExtResource("1_llt3f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=163947466]
+position = Vector2(0, -26.5)
+shape = SubResource("RectangleShape2D_0f22d")

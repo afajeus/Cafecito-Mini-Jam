@@ -1,0 +1,8 @@
+~ start
+Daniela: [[Hola|Buen Dia|Que mal dia]], me das un cafe.
+Jorge: Buen Dia[speed=0.1]...[/speed] ¿Como lo quieres?
+Daniela: Me gustria Saber mi destino.
+Daniela: [speed=0.1]...[/speed] [[Negro|Con Leche|Marron fuerte]]
+Jorge: ¿Azucar?
+Daniela: [[Con Azucar|Sin Azucar]]
+Jorge: Aqui tienes que lo disfrutes => END

@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://cvxcogxvbofl3"]
+
+[ext_resource type="Texture2D" uid="uid://bkt4qo4j8c225" path="res://IMG/Joven.png" id="1_4yawk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_acjap"]
+atlas = ExtResource("1_4yawk")
+region = Rect2(2013, 0, 671, 1259)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tf1wh"]
+atlas = ExtResource("1_4yawk")
+region = Rect2(0, 0, 671, 1259)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j7g6t"]
+atlas = ExtResource("1_4yawk")
+region = Rect2(671, 0, 671, 1259)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6evl"]
+atlas = ExtResource("1_4yawk")
+region = Rect2(1342, 0, 671, 1259)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j4uwg"]
+atlas = ExtResource("1_4yawk")
+region = Rect2(2684, 0, 671, 1259)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1khlk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_acjap")
+}],
+"loop": true,
+"name": &"Alegre",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tf1wh")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j7g6t")
+}],
+"loop": true,
+"name": &"Nulo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6evl")
+}],
+"loop": true,
+"name": &"Rabia",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j4uwg")
+}],
+"loop": true,
+"name": &"Triste",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=1593800933]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=106534601]
+position = Vector2(-3.9999695, 1.000061)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_1khlk")
+animation = &"Triste"
