@@ -175,9 +175,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -290.5
+offset_left = -139.0
 offset_top = -35.0
-offset_right = 290.5
+offset_right = 171.0
 offset_bottom = 35.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -189,7 +189,7 @@ response_template = NodePath("ResponseExample")
 
 [node name="ResponseExample" type="Button" parent="Balloon/ResponsesMenu" unique_id=1800042005]
 layout_mode = 2
-text = "Response example"
+text = "Response"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=103813850]
 unique_name_in_owner = true

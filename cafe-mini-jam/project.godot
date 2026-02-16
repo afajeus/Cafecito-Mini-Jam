@@ -11,13 +11,19 @@ config_version=5
 [application]
 
 config/name="Cafeomancia"
+config/description="Cefemancia version 0.1 Juego de adivinar adivinar la suerte del los clientes que no se les ve el rostro por que estan en la Oscuridad de la cafeteria para el Mini Jam 204: Cafe tema limitacion dejar en oscuro"
 run/main_scene="uid://bexb4aqt7a5bu"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/stretch_mode=0
+boot_splash/image="uid://b3gop2lsgdq4c"
+config/icon="uid://54v1v24g6ecp"
+config/macos_native_icon="uid://54v1v24g6ecp"
+config/windows_native_icon="uid://54v1v24g6ecp"
 
 [autoload]
 
 DialogueManager="*uid://c3rodes2l3gxb"
+GameManager="*uid://26qdndno6l6w"
 
 [dialogue_manager]
 
@@ -29,6 +35,7 @@ window/size/viewport_width=360
 window/size/viewport_height=640
 window/size/borderless=true
 window/handheld/orientation=1
+mouse_cursor/custom_image="uid://54v1v24g6ecp"
 
 [editor_plugins]
 
@@ -45,3 +52,5 @@ locale/translations_pot_files=PackedStringArray("res://dialgue/Dialgue1.dialogue
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

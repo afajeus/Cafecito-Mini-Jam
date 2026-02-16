@@ -27,6 +27,6 @@ scale = Vector2(1.405, 1.405)
 scale = Vector2(0.5, 0.5)
 
 [node name="Sprite2D" type="Sprite2D" parent="Cartel" unique_id=45975482]
-position = Vector2(364, 98)
-scale = Vector2(0.6, 0.6)
+position = Vector2(361, 71.999985)
+scale = Vector2(0.72, 0.72)
 texture = ExtResource("2_u2kup")

@@ -5,6 +5,9 @@ const SPEED = 300.0
 
 
 func _physics_process(_delta: float) -> void:
+	if GameManager.Si_Dialogue_Activo:
+		return
+	
 	var Direccion = Input.get_axis("ui_left","ui_right")
 	
 	if Direccion:
